@@ -1,0 +1,36 @@
+ASSIGNMENT 1:
+
+# Assinment- 1:
+pin= 1505
+withdraw = int(input("enter the pin"))
+if pin == withdraw:
+    print("it is valid")
+    print("continue the transaction")
+else:
+    print("it is not valid")
+    print("please try again")
+    
+    
+    
+ # ASSIGNMENT 2:
+ limit=100
+n=int(input())
+if n>=limit:
+    print('the given number is greater than 100')
+else:
+    print('the give number is less than 100')
+    
+  #ASSIGNMENT 3:
+  pin=3762
+balance=1000
+cnt=1
+print('enter the pin')
+n=int(input())
+if pin==n:
+    while (cnt!=0):
+        print('enter amount to be credit')
+        credit=int(input())
+        balance=balance+credit
+        cnt=cnt-1;
+print(balance)
+ 
